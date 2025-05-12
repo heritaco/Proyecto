@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.5.11)  11 MAY 2025 16:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.5.11)  11 MAY 2025 23:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -683,6 +683,13 @@ File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 ) (./175199_LOAS_2.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
+
+
+LaTeX Warning: Label `fig:mi_imagen' multiply defined.
+
+
+LaTeX Warning: Label `fig:mi_imagen' multiply defined.
+
 )
 \openout1 = `175199_LOAS_2.aux'.
 
@@ -787,15 +794,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[1])
+))
 \tf@toc=\write5
 \openout5 = `175199_LOAS_2.toc'.
 
@@ -807,11 +806,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[2]
-Overfull \hbox (0.58061pt too wide) in paragraph at lines 178--179
-[]\T1/cmr/bx/n/12 Tokens de in-fra-es-truc-tu-ra block-chain\T1/cmr/m/n/12 : TRX, TON, MA-TIC, DOT, AVAX, STETH,
- []
-
+[1]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -823,16 +818,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.187 ...ficos comprenden: \begin{itemize} \item F
-                                                  ormular y contrastar porta... [1]
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 189.
+l.176 \item M
+             emecoins con tracciÃ³n social: DOGE, SHIB (Santiment, 2024). [1]
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 198.
  (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-Overfull \hbox (64.61215pt too wide) in paragraph at lines 189--189
-[]\T1/cmr/bx/n/12 Python \T1/cmr/m/n/12 y sus li-bre-rías: \T1/cmtt/m/n/12 pandas \T1/cmr/m/n/12 (ges-tión de da-tos), \T1/cmtt/m/n/12 numpy \T1/cmr/m/n/12 (cómpu-to ma-tri-cial), \T1/cmtt/m/n/12 matplotlib\T1/cmr/m/n/12 /\T1/cmtt/m/n/12 seaborn
- []
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -841,6 +832,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [2]
+<imagenes/09-Precio-Volumen.pdf, id=127, 1124.43256pt x 639.64471pt>
+File: imagenes/09-Precio-Volumen.pdf Graphic file (type pdf)
+<use imagenes/09-Precio-Volumen.pdf>
+Package pdftex.def Info: imagenes/09-Precio-Volumen.pdf  used on input line 220.
+(pdftex.def)             Requested size: 401.22942pt x 228.2418pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -848,7 +845,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[3]
+[3 <./imagenes/09-Precio-Volumen.pdf>]
+<imagenes/10-Correlacion-Entre-Criptomonedas.pdf, id=211, 1445.4pt x 813.0375pt>
+File: imagenes/10-Correlacion-Entre-Criptomonedas.pdf Graphic file (type pdf)
+<use imagenes/10-Correlacion-Entre-Criptomonedas.pdf>
+Package pdftex.def Info: imagenes/10-Correlacion-Entre-Criptomonedas.pdf  used on input line 238.
+(pdftex.def)             Requested size: 424.82523pt x 238.96317pt.
+<imagenes/10-ef.pdf, id=212, 1505.625pt x 1505.62488pt>
+File: imagenes/10-ef.pdf Graphic file (type pdf)
+<use imagenes/10-ef.pdf>
+Package pdftex.def Info: imagenes/10-ef.pdf  used on input line 251.
+(pdftex.def)             Requested size: 259.6186pt x 259.6057pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -856,27 +867,53 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[4]
-Overfull \hbox (0.58061pt too wide) in paragraph at lines 267--268
-[]\T1/cmr/bx/n/12 Tokens de in-fra-es-truc-tu-ra block-chain\T1/cmr/m/n/12 : TRX, TON, MA-TIC, DOT, AVAX, STETH,
+[4 <./imagenes/10-Correlacion-Entre-Criptomonedas.pdf>]
+<imagenes/10-Simulacion-GBM-h.pdf, id=238, 1881.91081pt x 752.8125pt>
+File: imagenes/10-Simulacion-GBM-h.pdf Graphic file (type pdf)
+<use imagenes/10-Simulacion-GBM-h.pdf>
+Package pdftex.def Info: imagenes/10-Simulacion-GBM-h.pdf  used on input line 269.
+(pdftex.def)             Requested size: 472.03123pt x 188.82295pt.
+<imagenes/10-pesos.pdf, id=239, 1445.4pt x 813.0375pt>
+File: imagenes/10-pesos.pdf Graphic file (type pdf)
+<use imagenes/10-pesos.pdf>
+Package pdftex.def Info: imagenes/10-pesos.pdf  used on input line 281.
+(pdftex.def)             Requested size: 377.62642pt x 212.41446pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[5 <./imagenes/10-ef.pdf> <./imagenes/10-Simulacion-GBM-h.pdf>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[6 <./imagenes/10-pesos.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 324--325
+[]\T1/cmr/m/n/12 CoinDesk. (2025). \T1/cmr/m/it/12 XRP Pri-ce Vo-la-ti-lity Amid SEC Law-suit De-
  []
 
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+Underfull \hbox (badness 10000) in paragraph at lines 324--325
+\T1/cmr/m/it/12 ve-lop-ments\T1/cmr/m/n/12 . []$\T1/cmtt/m/n/12 https : / / www . coindesk . com / markets / 2025 / 04 / 10 /
+ []
 
-[5]
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+Underfull \hbox (badness 2318) in paragraph at lines 339--340
+[]\T1/cmr/m/n/12 Electric Ca-pi-tal. (2025). \T1/cmr/m/it/12 De-ve-lo-per Re-port\T1/cmr/m/n/12 . []$\T1/cmtt/m/n/12 https : / / www . electriccapital . com /
+ []
 
-[6]
+
+Underfull \hbox (badness 5954) in paragraph at lines 345--346
+[]\T1/cmr/m/n/12 Fidelity Di-gi-tal As-sets. (2025). \T1/cmr/m/it/12 Ins-ti-tu-tio-nal Cry-pto Adop-tion\T1/cmr/m/n/12 . []$\T1/cmtt/m/n/12 https : / / www .
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -885,8 +922,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [7]
-Overfull \hbox (33.80862pt too wide) in paragraph at lines 348--349
-[]\T1/cmr/m/n/12 BitGo. (2025). Wrap-ped Bit-coin Do-cu-men-ta-tion. [https://www.bitgo.com](https://www.bitgo.com) 
+Underfull \hbox (badness 5622) in paragraph at lines 369--370
+[]\T1/cmr/m/n/12 Messari. (2025). \T1/cmr/m/it/12 An-nual Cry-pto The-sis Re-port\T1/cmr/m/n/12 . []$\T1/cmtt/m/n/12 https : / / messari . io / report /
+ []
+
+
+Underfull \hbox (badness 1057) in paragraph at lines 384--385
+[]\T1/cmr/m/n/12 Zhang, L., Zhang, X., & Li, Y. (2023). Cry-pto-cu-rrency Port-fo-lio Cons-truc-tion:
  []
 
 
@@ -896,314 +938,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[8]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[9]
-Overfull \hbox (0.58061pt too wide) in paragraph at lines 449--450
-[]\T1/cmr/bx/n/12 Tokens de in-fra-es-truc-tu-ra block-chain\T1/cmr/m/n/12 : TRX, TON, MA-TIC, DOT, AVAX, STETH,
- []
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[10]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[11]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[12]
-Overfull \hbox (45.55576pt too wide) in paragraph at lines 531--532
-[]\T1/cmr/m/n/12 BitGo. (2025). *Wrap-ped Bit-coin Do-cu-men-ta-tion*. [https://www.bitgo.com](https://www.bitgo.com) 
- []
-
-
-Overfull \hbox (196.4719pt too wide) in paragraph at lines 535--536
-[]\T1/cmr/m/n/12 CoinDesk. (2025). *XRP Pri-ce Vo-la-ti-lity Amid SEC Law-suit De-ve-lop-ments*. [https://www.coindesk.com/markets/2025/04/10/xrp-
- []
-
-
-Overfull \hbox (9.27448pt too wide) in paragraph at lines 535--536
-\T1/cmr/m/n/12 price-volatility-amid-sec-lawsuit/](https://www.coindesk.com/markets/2025/04/10/xrp-price-
- []
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[13]
-Overfull \hbox (146.61983pt too wide) in paragraph at lines 537--538
-[]\T1/cmr/m/n/12 CoinGecko. (2025). *Cry-pto-cu-rrency Mar-ket Ca-pi-ta-li-za-tions*. [https://www.coingecko.com](https://www.coingecko.com) 
- []
-
-
-Overfull \hbox (160.90814pt too wide) in paragraph at lines 539--540
-[]\T1/cmr/m/n/12 CoinMarketCap. (2025). *Glo-bal Cry-pto Mar-ket Cap*. [https://www.coinmarketcap.com](https://www.coinmarketcap.com) 
- []
-
-
-Overfull \hbox (102.57474pt too wide) in paragraph at lines 541--542
-\T1/cmr/m/n/12 *Quan-ti-ta-ti-ve Fi-nan-ce, 1*(2), 223^^U236. [https://doi.org/10.1080/713665670](https://doi.org/10.1080/713665670) 
- []
-
-
-Overfull \hbox (50.58786pt too wide) in paragraph at lines 543--544
-[]\T1/cmr/m/n/12 DeFiLlama. (2025). *De-Fi Pro-to-col Ran-kings by TVL*. [https://defillama.com](https://defillama.com) 
- []
-
-
-Overfull \hbox (204.35759pt too wide) in paragraph at lines 547--548
-[]\T1/cmr/m/n/12 Ethereum Foun-da-tion. (2024). *Ethe-reum 2.0 Road-map*. [https://ethereum.org/en/upgrades/](https://ethereum.org/en/upgrades/) 
- []
-
-
-Overfull \hbox (349.22992pt too wide) in paragraph at lines 549--550
-[]\T1/cmr/m/n/12 Fidelity Di-gi-tal As-sets. (2025). *Ins-ti-tu-tio-nal Cry-pto Adop-tion*. [https://www.fidelitydigitalassets.com/research](https://www.fidelitydigitalassets.com/research) 
- []
-
-
-Overfull \hbox (93.92828pt too wide) in paragraph at lines 551--552
-\T1/cmr/m/n/12 136*, 118^^U130. [https://doi.org/10.1016/j.techfore.2018.09.020](https://doi.org/10.1016/j.techfore.2018.09.020) 
- []
-
-
-Overfull \hbox (306.05794pt too wide) in paragraph at lines 555--556
-\T1/cmr/m/n/12 analy-sis of the stock mar-ket. *PLoS ONE, 5*(12), e15032. [https://doi.org/10.1371/journal.pone.0015032](https://doi.org/10.1371/journal.pone.0015032) 
- []
-
-
-Overfull \hbox (38.29182pt too wide) in paragraph at lines 557--558
-\T1/cmr/m/n/12 Fi-nan-ce, 77*(2), 1133^^U1177. [https://doi.org/10.1111/jofi.13039](https://doi.org/10.1111/jofi.13039) 
- []
-
-
-Overfull \hbox (234.94357pt too wide) in paragraph at lines 559--560
-[]\T1/cmr/m/n/12 MakerDAO. (2024). *DAI Sta-ble-co-in Sys-tem Over-view*. [https://makerdao.com/en/whitepaper/](https://makerdao.com/en/whitepaper/) 
- []
-
-
-Overfull \hbox (73.82353pt too wide) in paragraph at lines 561--562
-\T1/cmr/m/n/12 Jour-nal B, 11*, 193^^U197. [https://doi.org/10.1007/s100510050929](https://doi.org/10.1007/s100510050929) 
- []
-
-
-Overfull \hbox (263.18849pt too wide) in paragraph at lines 563--564
-[]\T1/cmr/m/n/12 Markowitz, H. (1952). Port-fo-lio se-lec-tion. *Jour-nal of Fi-nan-ce, 7*(1), 77^^U91. [https://doi.org/10.2307/2975974](https://doi.org/10.2307/2975974) 
- []
-
-
-Overfull \hbox (45.74629pt too wide) in paragraph at lines 567--568
-[]\T1/cmr/m/n/12 Reuters. (2025). *Elon Musk Tweets Dri-ve DO-GE Sur-ge*. [https://www.reuters.com/technology/elon-
- []
-
-
-Overfull \hbox (25.98169pt too wide) in paragraph at lines 567--568
-\T1/cmr/m/n/12 musks-tweets-drive-dogecoin-price-surge-2025-03-17/](https://www.reuters.com/technology/elon-
- []
-
-
-Overfull \hbox (44.21312pt too wide) in paragraph at lines 569--570
-[]\T1/cmr/m/n/12 Santiment. (2024). *So-cial Trends in Cry-pto*. [https://app.santiment.net](https://app.santiment.net) 
- []
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[14]
-Overfull \hbox (39.23758pt too wide) in paragraph at lines 571--572
-\T1/cmr/m/n/12 10421^^U10426. [https://doi.org/10.1073/pnas.0500298102](https://doi.org/10.1073/pnas.0500298102) 
- []
-
-
-Overfull \hbox (111.61592pt too wide) in paragraph at lines 573--574
-[]\T1/cmr/m/n/12 Yahoo Fi-nan-ce. (2025). *Cry-pto-cu-rrency His-to-ri-cal Da-ta*. [https://finance.yahoo.com](https://finance.yahoo.com) 
- []
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[15]
-Overfull \hbox (0.58061pt too wide) in paragraph at lines 642--643
-[]\T1/cmr/bx/n/12 Tokens de in-fra-es-truc-tu-ra block-chain\T1/cmr/m/n/12 : TRX, TON, MA-TIC, DOT, AVAX, STETH,
- []
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[16]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[17]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[18]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[19]
-Overfull \hbox (45.55576pt too wide) in paragraph at lines 732--733
-[]\T1/cmr/m/n/12 BitGo. (2025). *Wrap-ped Bit-coin Do-cu-men-ta-tion*. [https://www.bitgo.com](https://www.bitgo.com) 
- []
-
-
-Overfull \hbox (196.4719pt too wide) in paragraph at lines 736--737
-[]\T1/cmr/m/n/12 CoinDesk. (2025). *XRP Pri-ce Vo-la-ti-lity Amid SEC Law-suit De-ve-lop-ments*. [https://www.coindesk.com/markets/2025/04/10/xrp-
- []
-
-
-Overfull \hbox (9.27448pt too wide) in paragraph at lines 736--737
-\T1/cmr/m/n/12 price-volatility-amid-sec-lawsuit/](https://www.coindesk.com/markets/2025/04/10/xrp-price-
- []
-
-
-Overfull \hbox (146.61983pt too wide) in paragraph at lines 738--739
-[]\T1/cmr/m/n/12 CoinGecko. (2025). *Cry-pto-cu-rrency Mar-ket Ca-pi-ta-li-za-tions*. [https://www.coingecko.com](https://www.coingecko.com) 
- []
-
-
-Overfull \hbox (160.90814pt too wide) in paragraph at lines 740--741
-[]\T1/cmr/m/n/12 CoinMarketCap. (2025). *Glo-bal Cry-pto Mar-ket Cap*. [https://www.coinmarketcap.com](https://www.coinmarketcap.com) 
- []
-
-
-Overfull \hbox (102.57474pt too wide) in paragraph at lines 742--743
-\T1/cmr/m/n/12 *Quan-ti-ta-ti-ve Fi-nan-ce, 1*(2), 223^^U236. [https://doi.org/10.1080/713665670](https://doi.org/10.1080/713665670) 
- []
-
-
-Overfull \hbox (50.58786pt too wide) in paragraph at lines 744--745
-[]\T1/cmr/m/n/12 DeFiLlama. (2025). *De-Fi Pro-to-col Ran-kings by TVL*. [https://defillama.com](https://defillama.com) 
- []
-
-
-Overfull \hbox (204.35759pt too wide) in paragraph at lines 748--749
-[]\T1/cmr/m/n/12 Ethereum Foun-da-tion. (2024). *Ethe-reum 2.0 Road-map*. [https://ethereum.org/en/upgrades/](https://ethereum.org/en/upgrades/) 
- []
-
-
-Overfull \hbox (349.22992pt too wide) in paragraph at lines 750--751
-[]\T1/cmr/m/n/12 Fidelity Di-gi-tal As-sets. (2025). *Ins-ti-tu-tio-nal Cry-pto Adop-tion*. [https://www.fidelitydigitalassets.com/research](https://www.fidelitydigitalassets.com/research) 
- []
-
-
-Overfull \hbox (93.92828pt too wide) in paragraph at lines 752--753
-\T1/cmr/m/n/12 136*, 118^^U130. [https://doi.org/10.1016/j.techfore.2018.09.020](https://doi.org/10.1016/j.techfore.2018.09.020) 
- []
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[20]
-Overfull \hbox (306.05794pt too wide) in paragraph at lines 756--757
-\T1/cmr/m/n/12 analy-sis of the stock mar-ket. *PLoS ONE, 5*(12), e15032. [https://doi.org/10.1371/journal.pone.0015032](https://doi.org/10.1371/journal.pone.0015032) 
- []
-
-
-Overfull \hbox (38.29182pt too wide) in paragraph at lines 758--759
-\T1/cmr/m/n/12 Fi-nan-ce, 77*(2), 1133^^U1177. [https://doi.org/10.1111/jofi.13039](https://doi.org/10.1111/jofi.13039) 
- []
-
-
-Overfull \hbox (234.94357pt too wide) in paragraph at lines 760--761
-[]\T1/cmr/m/n/12 MakerDAO. (2024). *DAI Sta-ble-co-in Sys-tem Over-view*. [https://makerdao.com/en/whitepaper/](https://makerdao.com/en/whitepaper/) 
- []
-
-
-Overfull \hbox (73.82353pt too wide) in paragraph at lines 762--763
-\T1/cmr/m/n/12 Jour-nal B, 11*, 193^^U197. [https://doi.org/10.1007/s100510050929](https://doi.org/10.1007/s100510050929) 
- []
-
-
-Overfull \hbox (263.18849pt too wide) in paragraph at lines 764--765
-[]\T1/cmr/m/n/12 Markowitz, H. (1952). Port-fo-lio se-lec-tion. *Jour-nal of Fi-nan-ce, 7*(1), 77^^U91. [https://doi.org/10.2307/2975974](https://doi.org/10.2307/2975974) 
- []
-
-
-Overfull \hbox (45.74629pt too wide) in paragraph at lines 768--769
-[]\T1/cmr/m/n/12 Reuters. (2025). *Elon Musk Tweets Dri-ve DO-GE Sur-ge*. [https://www.reuters.com/technology/elon-
- []
-
-
-Overfull \hbox (25.98169pt too wide) in paragraph at lines 768--769
-\T1/cmr/m/n/12 musks-tweets-drive-dogecoin-price-surge-2025-03-17/](https://www.reuters.com/technology/elon-
- []
-
-
-Overfull \hbox (44.21312pt too wide) in paragraph at lines 770--771
-[]\T1/cmr/m/n/12 Santiment. (2024). *So-cial Trends in Cry-pto*. [https://app.santiment.net](https://app.santiment.net) 
- []
-
-
-Overfull \hbox (39.23758pt too wide) in paragraph at lines 772--773
-\T1/cmr/m/n/12 10421^^U10426. [https://doi.org/10.1073/pnas.0500298102](https://doi.org/10.1073/pnas.0500298102) 
- []
-
-
-Overfull \hbox (111.61592pt too wide) in paragraph at lines 774--775
-[]\T1/cmr/m/n/12 Yahoo Fi-nan-ce. (2025). *Cry-pto-cu-rrency His-to-ri-cal Da-ta*. [https://finance.yahoo.com](https://finance.yahoo.com) 
- []
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[21] (./175199_LOAS_2.aux
+[8] (./175199_LOAS_2.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 )
@@ -1211,22 +946,26 @@ LaTeX Info: Redefining \% on input line 11.
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `175199_LOAS_2.out' has not changed.
-(rerunfilecheck)             Checksum: 19FB56ACA76BFD89596F584ACDED79EA;13379.
+(rerunfilecheck)             Checksum: 96929A384AC28C49CE193892D4A3FA93;4200.
  ) 
 Here is how much of TeX's memory you used:
- 35820 strings out of 474222
- 803470 string characters out of 5748733
+ 35799 strings out of 474222
+ 804970 string characters out of 5748733
  1935975 words of memory out of 5000000
- 57415 multiletter control sequences out of 15000+600000
- 564567 words of font info for 57 fonts, out of 8000000 for 9000
+ 57451 multiletter control sequences out of 15000+600000
+ 566701 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,12n,107p,1235b,786s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on 175199_LOAS_2.pdf (24 pages, 175313 bytes).
+ 99i,11n,107p,1213b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on 175199_LOAS_2.pdf (10 pages, 4915441 bytes).
 PDF statistics:
- 522 PDF objects out of 1000 (max. 8388607)
- 475 compressed objects within 5 object streams
- 127 named destinations out of 1000 (max. 500000)
- 485 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 502 PDF objects out of 1000 (max. 8388607)
+ 358 compressed objects within 4 object streams
+ 67 named destinations out of 1000 (max. 500000)
+ 182 words of extra memory for PDF output out of 10000 (max. 10000000)
 
