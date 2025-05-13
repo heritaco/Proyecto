@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.5.11)  11 MAY 2025 23:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.5.11)  12 MAY 2025 23:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -683,13 +683,6 @@ File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 ) (./175199_LOAS_2.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
-
-
-LaTeX Warning: Label `fig:mi_imagen' multiply defined.
-
-
-LaTeX Warning: Label `fig:mi_imagen' multiply defined.
-
 )
 \openout1 = `175199_LOAS_2.aux'.
 
@@ -818,12 +811,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.176 \item M
-             emecoins con tracciÃ³n social: DOGE, SHIB (Santiment, 2024). [1]
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 198.
- (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
-)
+l.185 \item E
+             valuar comportamiento y eventos clave del ecosistema cripto y s... [1]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -832,11 +821,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [2]
-<imagenes/09-Precio-Volumen.pdf, id=127, 1124.43256pt x 639.64471pt>
+<imagenes/11-retorno.pdf, id=124, 2333.71875pt x 1129.21875pt>
+File: imagenes/11-retorno.pdf Graphic file (type pdf)
+<use imagenes/11-retorno.pdf>
+Package pdftex.def Info: imagenes/11-retorno.pdf  used on input line 229.
+(pdftex.def)             Requested size: 330.42041pt x 159.88152pt.
+<imagenes/09-Precio-Volumen.pdf, id=126, 1124.43256pt x 639.64471pt>
 File: imagenes/09-Precio-Volumen.pdf Graphic file (type pdf)
 <use imagenes/09-Precio-Volumen.pdf>
-Package pdftex.def Info: imagenes/09-Precio-Volumen.pdf  used on input line 220.
-(pdftex.def)             Requested size: 401.22942pt x 228.2418pt.
+Package pdftex.def Info: imagenes/09-Precio-Volumen.pdf  used on input line 238.
+(pdftex.def)             Requested size: 354.02342pt x 201.39154pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -845,16 +839,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[3 <./imagenes/09-Precio-Volumen.pdf>]
-<imagenes/10-Correlacion-Entre-Criptomonedas.pdf, id=211, 1445.4pt x 813.0375pt>
+[3 <./imagenes/11-retorno.pdf> <./imagenes/09-Precio-Volumen.pdf>]
+<imagenes/10-Correlacion-Entre-Criptomonedas.pdf, id=223, 1445.4pt x 813.0375pt>
 File: imagenes/10-Correlacion-Entre-Criptomonedas.pdf Graphic file (type pdf)
 <use imagenes/10-Correlacion-Entre-Criptomonedas.pdf>
-Package pdftex.def Info: imagenes/10-Correlacion-Entre-Criptomonedas.pdf  used on input line 238.
-(pdftex.def)             Requested size: 424.82523pt x 238.96317pt.
-<imagenes/10-ef.pdf, id=212, 1505.625pt x 1505.62488pt>
+Package pdftex.def Info: imagenes/10-Correlacion-Entre-Criptomonedas.pdf  used on input line 255.
+(pdftex.def)             Requested size: 330.42041pt x 185.85335pt.
+<imagenes/10-ef.pdf, id=225, 1505.625pt x 1505.62488pt>
 File: imagenes/10-ef.pdf Graphic file (type pdf)
 <use imagenes/10-ef.pdf>
-Package pdftex.def Info: imagenes/10-ef.pdf  used on input line 251.
+Package pdftex.def Info: imagenes/10-ef.pdf  used on input line 270.
 (pdftex.def)             Requested size: 259.6186pt x 259.6057pt.
 
 
@@ -868,16 +862,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [4 <./imagenes/10-Correlacion-Entre-Criptomonedas.pdf>]
-<imagenes/10-Simulacion-GBM-h.pdf, id=238, 1881.91081pt x 752.8125pt>
-File: imagenes/10-Simulacion-GBM-h.pdf Graphic file (type pdf)
-<use imagenes/10-Simulacion-GBM-h.pdf>
-Package pdftex.def Info: imagenes/10-Simulacion-GBM-h.pdf  used on input line 269.
-(pdftex.def)             Requested size: 472.03123pt x 188.82295pt.
-<imagenes/10-pesos.pdf, id=239, 1445.4pt x 813.0375pt>
+<imagenes/10-pesos.pdf, id=253, 1445.4pt x 813.0375pt>
 File: imagenes/10-pesos.pdf Graphic file (type pdf)
 <use imagenes/10-pesos.pdf>
-Package pdftex.def Info: imagenes/10-pesos.pdf  used on input line 281.
-(pdftex.def)             Requested size: 377.62642pt x 212.41446pt.
+Package pdftex.def Info: imagenes/10-pesos.pdf  used on input line 279.
+(pdftex.def)             Requested size: 330.42041pt x 185.85335pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -886,7 +875,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[5 <./imagenes/10-ef.pdf> <./imagenes/10-Simulacion-GBM-h.pdf>]
+[5 <./imagenes/10-ef.pdf> <./imagenes/10-pesos.pdf>]
+<imagenes/12.pdf, id=371, 1505.625pt x 752.8125pt>
+File: imagenes/12.pdf Graphic file (type pdf)
+<use imagenes/12.pdf>
+Package pdftex.def Info: imagenes/12.pdf  used on input line 288.
+(pdftex.def)             Requested size: 330.42041pt x 165.20572pt.
+<imagenes/11-gbm-h.pdf, id=373, 1881.91081pt x 752.8125pt>
+File: imagenes/11-gbm-h.pdf Graphic file (type pdf)
+<use imagenes/11-gbm-h.pdf>
+Package pdftex.def Info: imagenes/11-gbm-h.pdf  used on input line 301.
+(pdftex.def)             Requested size: 472.03123pt x 188.82295pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -894,26 +894,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[6 <./imagenes/10-pesos.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 324--325
-[]\T1/cmr/m/n/12 CoinDesk. (2025). \T1/cmr/m/it/12 XRP Pri-ce Vo-la-ti-lity Amid SEC Law-suit De-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 324--325
-\T1/cmr/m/it/12 ve-lop-ments\T1/cmr/m/n/12 . []$\T1/cmtt/m/n/12 https : / / www . coindesk . com / markets / 2025 / 04 / 10 /
- []
-
-
-Underfull \hbox (badness 2318) in paragraph at lines 339--340
-[]\T1/cmr/m/n/12 Electric Ca-pi-tal. (2025). \T1/cmr/m/it/12 De-ve-lo-per Re-port\T1/cmr/m/n/12 . []$\T1/cmtt/m/n/12 https : / / www . electriccapital . com /
- []
-
-
-Underfull \hbox (badness 5954) in paragraph at lines 345--346
-[]\T1/cmr/m/n/12 Fidelity Di-gi-tal As-sets. (2025). \T1/cmr/m/it/12 Ins-ti-tu-tio-nal Cry-pto Adop-tion\T1/cmr/m/n/12 . []$\T1/cmtt/m/n/12 https : / / www .
- []
-
+[6 <./imagenes/12.pdf> <./imagenes/11-gbm-h.pdf>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -922,13 +903,42 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [7]
-Underfull \hbox (badness 5622) in paragraph at lines 369--370
-[]\T1/cmr/m/n/12 Messari. (2025). \T1/cmr/m/it/12 An-nual Cry-pto The-sis Re-port\T1/cmr/m/n/12 . []$\T1/cmtt/m/n/12 https : / / messari . io / report /
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 368.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+Underfull \hbox (badness 3568) in paragraph at lines 374--375
+[]\T1/cmr/m/n/12 IMF. (2021). \T1/cmr/m/it/12 Cry-pto boom po-ses new cha-llen-ges to fi-nan-cial sta-bi-lity\T1/cmr/m/n/12 . In-ter-
  []
 
 
-Underfull \hbox (badness 1057) in paragraph at lines 384--385
-[]\T1/cmr/m/n/12 Zhang, L., Zhang, X., & Li, Y. (2023). Cry-pto-cu-rrency Port-fo-lio Cons-truc-tion:
+Underfull \hbox (badness 1019) in paragraph at lines 374--375
+\T1/cmr/m/n/12 na-tio-nal Mo-ne-tary Fund. []$\T1/cmtt/m/n/12 https : / / www . imf . org / en / Blogs / Articles / 2021 / 10 / 01 /
+ []
+
+
+Underfull \hbox (badness 5548) in paragraph at lines 377--378
+[]\T1/cmr/m/n/12 Infobae. (2024). \T1/cmr/m/it/12 Cuál es la nue-va crip-to-mo-ne-da fa-vo-ri-ta de Elon Musk y
+ []
+
+
+Underfull \hbox (badness 3386) in paragraph at lines 377--378
+\T1/cmr/m/it/12 có-mo fun-cio-na\T1/cmr/m/n/12 . In-fo-bae. []$\T1/cmtt/m/n/12 https : / / www . infobae . com / america / mundo / 2024 / 11 / 12 /
+ []
+
+
+Underfull \hbox (badness 1546) in paragraph at lines 380--381
+[]\T1/cmr/m/n/12 Kamada, T., & Ka-way, S. (1989). An al-go-rithm for dra-wing ge-ne-ral un-di-rec-
+ []
+
+
+Underfull \hbox (badness 3942) in paragraph at lines 389--390
+[]\T1/cmr/m/n/12 Yahoo Fi-nan-ce. (2025). \T1/cmr/m/it/12 ¾Qué ha im-pul-sa-do el pre-cio de Rip-ple en las úl-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 389--390
+\T1/cmr/m/it/12 ti-mas 24hs?\T1/cmr/m/n/12 . Yahoo Fi-nan-ce. []$\T1/cmtt/m/n/12 https : / / es . finance . yahoo . com / noticias /
  []
 
 
@@ -946,26 +956,22 @@ LaTeX Info: Redefining \% on input line 11.
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
-
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `175199_LOAS_2.out' has not changed.
 (rerunfilecheck)             Checksum: 96929A384AC28C49CE193892D4A3FA93;4200.
  ) 
 Here is how much of TeX's memory you used:
- 35799 strings out of 474222
- 804970 string characters out of 5748733
- 1935975 words of memory out of 5000000
- 57451 multiletter control sequences out of 15000+600000
+ 35782 strings out of 474222
+ 804583 string characters out of 5748733
+ 1933975 words of memory out of 5000000
+ 57454 multiletter control sequences out of 15000+600000
  566701 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,11n,107p,1213b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on 175199_LOAS_2.pdf (10 pages, 4915441 bytes).
+Output written on 175199_LOAS_2.pdf (10 pages, 5041708 bytes).
 PDF statistics:
- 502 PDF objects out of 1000 (max. 8388607)
- 358 compressed objects within 4 object streams
- 67 named destinations out of 1000 (max. 500000)
- 182 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 517 PDF objects out of 1000 (max. 8388607)
+ 347 compressed objects within 4 object streams
+ 47 named destinations out of 1000 (max. 500000)
+ 192 words of extra memory for PDF output out of 10000 (max. 10000000)
 

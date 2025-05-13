@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1747029530.51494 "/home/heri/Documents/GitHub/Proyecto/Proyecto/08-Loas/00-Reporte-Latex/175199_LOAS_2.tex" "175199_LOAS_2.pdf" "175199_LOAS_2" 1747029531.93003 0
+["pdflatex"] 1747115759.15472 "/home/heri/Documents/GitHub/Proyecto/Proyecto/08-Loas/00-Reporte-Latex/175199_LOAS_2.tex" "175199_LOAS_2.pdf" "175199_LOAS_2" 1747115759.84926 0
   "/etc/texmf/web2c/texmf.cnf" 1746955287.69423 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/heri/Documents/GitHub/Proyecto/Proyecto/08-Loas/00-Reporte-Latex/175199_LOAS_2.tex" 1747029529.4814 18374 59f2c2b29cb2f7a779bd6db82f45dc76 ""
+  "/home/heri/Documents/GitHub/Proyecto/Proyecto/08-Loas/00-Reporte-Latex/175199_LOAS_2.tex" 1747115759.05059 18708 29a967ab28e6636f430820a7e1ea5686 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm" 1136768653 3584 402da0b29eafbad07963b1224b222f18 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm0800.tfm" 1136768653 3584 49064b465390a8e316a3c8417a050403 ""
@@ -220,15 +220,17 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1746955314.6899 5472669 54eaf61a88b6b7896ebd0dac973cb29c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1746955414 8214140 fa40abeadb8d706c243ad9124d8d6c7d ""
-  "175199_LOAS_2.aux" 1747029531.79242 5132 3069bda038005a3b93105dc1094a9814 "pdflatex"
-  "175199_LOAS_2.out" 1747029531.79642 4200 96929a384ac28c49ce193892d4a3fa93 "pdflatex"
-  "175199_LOAS_2.tex" 1747029529.4814 18374 59f2c2b29cb2f7a779bd6db82f45dc76 ""
-  "175199_LOAS_2.toc" 1747029531.79742 1820 0f36c654ea592abf35f6df2af4b08a01 "pdflatex"
+  "175199_LOAS_2.aux" 1747115759.75757 5631 0cd7519713b90a510ffff413044a274a "pdflatex"
+  "175199_LOAS_2.out" 1747115759.75957 4200 96929a384ac28c49ce193892d4a3fa93 "pdflatex"
+  "175199_LOAS_2.tex" 1747115759.05059 18708 29a967ab28e6636f430820a7e1ea5686 ""
+  "175199_LOAS_2.toc" 1747115759.76057 1820 f483554d3f57fb36f94960aab0437133 "pdflatex"
   "imagenes/09-Precio-Volumen.pdf" 1747003451.53791 84210 4191edd6da9555271fa5c5d687f1047c ""
   "imagenes/10-Correlacion-Entre-Criptomonedas.pdf" 1747022993.23622 94936 915e024290883f2ac8c41376ea21d682 ""
-  "imagenes/10-Simulacion-GBM-h.pdf" 1747028737.49885 4332382 4aebf78f521fec72ba3a48b5a995b346 ""
   "imagenes/10-ef.pdf" 1747024625.20844 147130 a8aed889fb369088faab36d251f5be49 ""
   "imagenes/10-pesos.pdf" 1747023926.87014 61649 1c44ef0fea71e4dbdd7cccae84062d81 ""
+  "imagenes/11-gbm-h.pdf" 1747064373.65067 4333601 a61d87d8886eee4343aa016b4b7dba40 ""
+  "imagenes/11-retorno.pdf" 1747065317.7827 76355 b535a14951527dfab60e9891fdb1731c ""
+  "imagenes/12.pdf" 1747114299.22717 55345 2c14e0b2cb0530735245d1948bebb343 ""
   (generated)
   "175199_LOAS_2.aux"
   "175199_LOAS_2.log"

@@ -160,138 +160,163 @@
 
 \section{Introducción}
 \subsection{Contextualización y relevancia del problema abordado}
-Durante la última década, el ecosistema de criptoactivos ha presentado un crecimiento sin precedentes, alcanzando una capitalización superior a los 2 billones de dólares para comienzos de 2025 (CoinMarketCap, 2025). Esta expansión ha transformado profundamente el perfil de los participantes del mercado, incluyendo tanto actores institucionales como inversores minoristas. Lo anterior ha generado una demanda creciente por metodologías analíticas rigurosas orientadas a la evaluación del binomio riesgo-retorno (Fisch et al., 2019). La presencia de productos derivados, tokens con diversas funciones, y ecosistemas interconectados ha hecho indispensable el uso de enfoques cuantitativos robustos y adaptativos.
-
-La inherente volatilidad de los precios, la diversidad funcional de los activos digitales y su interconectividad creciente exigen un enfoque integral basado en ciencia de datos. Este enfoque debe combinar herramientas cuantitativas avanzadas, técnicas de visualización interpretativa, y principios de diseño perceptual. Es crucial tener una comprensión dinámica de la estructura del mercado y de los factores que influyen en el comportamiento de los criptoactivos (Liu et al., 2022). En este contexto, el presente trabajo busca aportar una caracterización multidimensional de un portafolio de criptoactivos representativo del ecosistema actual, con énfasis en optimización, simulación y análisis estructural.
+Durante la última década, el ecosistema de criptoactivos ha presentado un crecimiento sin precedentes, alcanzando una capitalización superior a los 2 billones de dólares durante 2021 (Drakopoulos, 2021). Esta expansión ha transformado el perfil de los participantes del mercado,  incluyendo tanto actores institucionales como inversores minoristas, generando una demanda creciente por análisis orientados a la evaluación de la maximización de retornos con una volatilidad controlada, haciendo necesario un enfoque que combine herramientas cuantitativas acompañadas de técnicas de visualización, debido a la importancia de una comprensión estructural del mercado y de los factores que influyen en el comportamiento de  criptoactivoss. En este contexto, el presente trabajo busca aportar una descripción y un análisis de distintos portafolios desde un análisis estructural, optimización y simulación.
 
 \subsection{Delimitación temporal, espacial y conceptual del estudio}
-Este estudio se centra en el período de mayo de 2024 a mayo de 2025, seleccionado por su relevancia en cuanto a dinamismo del mercado y cambios estructurales recientes en el ecosistema cripto (Messari, 2025). Esta etapa incluye hitos regulatorios clave, lanzamientos tecnológicos, e importantes movimientos en el comportamiento de precios y volúmenes. La muestra incluye una selección de criptoactivos clasificados conforme a criterios de capitalización bursátil, funcionalidad tecnológica y relevancia dentro del ecosistema cripto:
+Este estudio se centra en el período de mayo de 2024 a mayo de 2025, con observaciones diarias, debido a que se busca un portafolio que este activo durante un mes, estos plazos permiten minimizar las fluctuaciones momentáneas y centrar el análisis en las tendencias generales (Binance, 2025). La muestra incluye una selección de criptoactivos clasificados conforme a criterios de capitalización bursátil, funcionalidad tecnológica y relevancia dentro del ecosistema cripto (CoinGecko, 2025):
 
-\begin{enumerate}
-\item Activos de alta capitalización: BTC, ETH, USDT, BNB, USDC, XRP, ADA, SOL, DOGE (CoinGecko, 2025).
-\item Stablecoins de referencia: USDT, USDC, DAI, USDS (MakerDAO, 2024).
-\item Tokens de infraestructura blockchain: TRX, TON, MATIC, DOT, AVAX, STETH, WSTETH, SUI (Electric Capital, 2025).
-\item Activos envueltos para interoperabilidad: WBTC, WTRX, WSTETH (BitGo, 2025).
-\item Criptoactivos con uso en pagos y DeFi: LTC, LINK, XLM, HBAR, BCH (DeFiLlama, 2025).
-\item Memecoins con tracción social: DOGE, SHIB (Santiment, 2024).
-\item Tokens asociados a exchanges: LEO (Bitfinex, 2025).
-\end{enumerate}
+\begin{itemize}
+\item Activos de mayor capitalización de mercado: BTC, ETH, USDT, XRP, BNB, SOL. 
+\item Stablecoins de referencia: USDT, USDC, DAI, USDS.
+\item Tokens de blockchain: TRX, TON, MATIC, DOT, AVAX, STETH, WSTETH, SUI.
+\item Activos envueltos para interoperabilidad: WBTC, WTRX, WSTETH.
+\item Criptoactivos con uso en pagos y DeFi: LTC, LINK, XLM, HBAR, BCH.
+\item Memecoins con tracción social: DOGE, SHIB.
+\item Tokens asociados a exchanges: LEO.
+\end{itemize}
 
-Se comparan mecanismos de exposición directa (spot) y derivados financieros (CFDs), considerando su eficiencia, perfiles de riesgo y comportamiento bajo escenarios empíricos y simulados. El marco espacial presupone plataformas de negociación globalizadas con precios denominados en dólares estadounidenses. El marco conceptual abarca teoría de optimización de portafolios (Markowitz, 1952), procesos estocásticos (GBM) y análisis estructural de interdependencias mediante redes financieras (Mantegna, 1999).
+
+
+Se comparan mecanismos de compra directa (spot) y derivados financieros (CFDs), considerando su eficiencia, perfiles de riesgo y comportamiento bajo escenarios observados y simulados con precios denominados en dólares estadounidenses. El marco conceptual abarca correlaciones entre los criptoactivos, teoría de optimización de portafolios (Markowitz, 1952) y procesos estocásticos de Movimiento Browniano Geométrico (GBM).
 
 \subsection{Objetivos del estudio}
 Los objetivos específicos comprenden:
 \begin{itemize}
-\item Evaluar eventos clave del ecosistema cripto y su efecto sobre activos seleccionados como BTC, ETH, DOGE y XRP, tanto en precio como en volumen.
-\item Caracterizar correlaciones y patrones de agrupamiento entre activos a partir de log-retornos.
-\item Formular y contrastar portafolios optimizados (spot y CFD) mediante la frontera eficiente de Markowitz.
-\item Simular trayectorias de precios a corto plazo utilizando Movimiento Browniano Geométrico (GBM) con parámetros calibrados empíricamente.
+\item Evaluar comportamiento y eventos clave del ecosistema cripto y su efecto sobre activos.
+\item Encontrar correlaciones y agrupamientos entre activos a partir de log-retornos.
+\item Formular y contrastar portafolios optimizados mediante la frontera eficiente.
+\item Simular trayectorias de precios a corto plazo utilizando GMB.
 \end{itemize}
+
+
 
 \section{Metodología}
 \subsection{Herramientas analíticas y técnicas de ciencia de datos implementadas}
-El abordaje metodológico incluyó:
+El presente trabajo incluyó:
 \begin{itemize}
-\item Optimización: programación cuadrática para construir la frontera eficiente de Markowitz.
-\item Modelado estocástico: generación de trayectorias a 30 días mediante Movimiento Browniano Geométrico (GBM), calibrado por volatilidad histórica.
-\item Correlaciones: coeficientes de Pearson sobre log-retornos diarios; disimilitud definida como $d_{ij}=1-\left|\rho_{ij}\right|$. % (Tumminello et al., 2005).
-\item Clustering y redes: mapas jerárquicos, clústeres de activos y grafos construidos con visualización mediante Kamada-Kawai de\texttt{networkx}.
-% \item Análisis de eventos: evaluación de shocks tecnológicos, regulatorios y sociales sobre comportamiento de precios y volumen (Chainalysis, 2024).
+\item Análisis de activos y eventos relevantes mediante la evaluación de shocks tecnológicos, regulatorios y sociales sobre comportamiento de precios y volumen.
+\item Correlaciones con el coeficiente de Pearson sobre log-retornos diarios y una medida de disimilitud para su visualización mediante Kamada-Kawai (Kamada, 1989) definida como $d_{ij}=1-\left|\rho_{ij}\right|$. 
+\item Optimización cuadrática para construir la frontera eficiente.
+\item Modelado estocástico con lageneración de trayectorias a 30 días mediante el Movimiento Browniano Geométrico, calibrado por volatilidad histórica.
 \end{itemize}
 
 \subsection{Origen y tratamiento de los datos}
-Se utilizaron series diarias de precios y volúmenes extraídas desde la API pública de Yahoo Finance, en el intervalo mayo 2024 - mayo 2025 (Yahoo Finance, 2025). Las etapas incluyeron:
+Se utilizaron series diarias de precios y volúmenes extraídas desde la API pública de Yahoo Finance, en el intervalo de mayo 2024 a mayo 2025 (Yahoo Finance, 2025). 
+
+
+
+Las etapas incluyeron:
+
 \begin{enumerate}
-\item \textbf{Extracción}: adquisición automatizada del precio ajustado y volumen diario mediante \texttt{yfinance}.
-\item \textbf{Preprocesamiento}: validación de completitud; no fue necesario imputar datos.
-\item \textbf{Transformación}: cálculo de log-retornos para estabilizar varianza y mejorar la idoneidad del modelado estocástico (Cont, 2001).
-\item \textbf{Análisis exploratorio}: estimación preliminar de correlaciones y volúmenes relativos.
+\item Extracción: adquisición del precio ajustado y volumen diario de criptoactivos.
+\item Preprocesamiento: no fue necesario imputar datos, ya que todos están completos.
+\item Transformación: cálculo de log-retornos para hacer estacionaria la serie, estabilizar la varianza y mejorar el modelado estocástico.
+\item Análisis exploratorio: análisis de retornos diarios, volúmenes y correlaciones entre los activos.
 \end{enumerate}
 
 \section{Resultados}
+
+
 \subsection{Resultados analíticos y representación visual}
 
 
 \subsubsection{Análisis de áctivos}
-Del análisis de criptoactvos, se pueden concluir que estos actitvos son altamnente sensibles a eventos sociales y tecnológicos. En la figura \ref{fig:1} se puede observar el comportamiento de los precios y volumen de los activos más populares durante el último año.
+
+Durante el mes previo al periodo de análisis, la mayoría de las criptomonedas registraron retornos negativos, con excepción de aquellas con mayor varianza, como TON, ADA y XRP. Este comportamiento se observa en la figura \ref{fig:11-retorno}.
 
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=0.85\textwidth]{imagenes/09-Precio-Volumen.pdf}
-    \caption{\textit{Elaboración Propia}. Descripción de la imagen.}
-    \label{fig:1}
+    \includegraphics[width=0.7\textwidth]{imagenes/11-retorno.pdf}
+    \caption{\textit{Elaboración propia}. Retornos diarios de criptomonedas un mes antes del análisis.}
+    \label{fig:11-retorno}
 \end{figure}
+
+Esto evidencia la alta volatilidad de los criptoactivos y su marcada sensibilidad ante factores sociales y tecnológicos, especialmente después del crecimiento significativo experimentado en noviembre de 2024.  Tal comportamiento puede apreciarse en la figura \ref{fig:09-precio-volumen}, donde se presentan la evolución de precios y el volumen de operaciones de los activos más populares durante el último año.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.75\textwidth]{imagenes/09-Precio-Volumen.pdf}
+    \caption{\textit{Elaboración propia}. Comparación de precio y volumen de ventas diarias  durante el último año.}
+    \label{fig:09-precio-volumen}
+\end{figure}
+
+Se observa que BTC registró un incremento al acercarse al umbral de los 100,000 USD, lo cual incentivó una mayor adopción por parte del mercado. DOGE experimentó una subida de precio que coincidió con declaraciones públicas de Elon Musk, quien propuso la integración de Dogecoin en plataformas como X y Tesla (Sol de María, 2024). XRP presentó una oscilación de precios relacionadas con avances en el litigio frente a la Comisión de Bolsa y Valores de EE. UU (Yahoo Finanzas, 2025).
+
+
+
 
 
 
 
 \subsubsection{Análisis de Correlaciones}
 
-La matriz de correlación reveló interdependencias predominantemente positivas. TON, DAI y LEO se identificaron como activos con baja correlación estructural, lo que sugiere su rol como activos diversificadores potenciales. La visualización mediante el algoritmo Kamada-Kawai resaltó estas relaciones. % (Kenett et al., 2010)
-
-
-
-
-
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=0.9\textwidth]{imagenes/10-Correlacion-Entre-Criptomonedas.pdf}
-    \caption{\textit{Elaboración Propia}. Descripción de la imagen.}
+    \includegraphics[width=0.7\textwidth]{imagenes/10-Correlacion-Entre-Criptomonedas.pdf}
+    \caption{\textit{Elaboración propia}. Correlación entre log-retornos diarios de criptomonedas.}
     \label{fig:mi_imagen}
 \end{figure}
 
 
+La matriz de correlación reveló correlaciones altamente positivas entre la casi todos los criptoactivos, sugiriendo que el mercado de criptomonedas tiende a moverse en conjunto, lo que puede limitar la efectividad de la diversificación. Sin embargo, algunos activos como TON, DAI y LEO cuentan con una correloción casi nula, lo que muestra su rol como activos diversificadores potenciales. La visualización mediante el algoritmo Kamada-Kawai resaltó estas correlaciones.
 
 
 \subsubsection{Curvas de frontera eficiente}
 
+Dos portafolios eficientes fueron generados, su visualización se muestra en la  figura \ref{fig:10-eff}. El portafolio spot con mayor Sharpe Ratio de 0.20 a un mes, presentó un retorno esperado de 2.8\% y una volatilidad de 13.7\%. En contraste, el portafolio CFD mostró un portafolio un retorno esperado de 5.4\%, una volatilidad de 9.6\% y un Sharpe Ratio de 0.56 con un apalancamiento sugerido del 4.55, estas altas evaluaciones del portafolio de CFDs sobre el de spot es debido a la caída de los precios de los activos durante los últimos meses y la posibildad de venta en corto, además del apalancamiento.
 
 \begin{figure}[h!]
     \centering
     \includegraphics[width=0.55\textwidth]{imagenes/10-ef.pdf}
-    \caption{\textit{Elaboración Propia}. Descripción de la imagen.}
-    \label{fig:mi_imagen}
+    \caption{\textit{Elaboración propia}. Curvas de frontera eficiente con retornos esperados mensuales.}
+    \label{fig:10-eff}
 \end{figure}
 
-Dos portafolios eficientes fueron generados (Figura fig:peso). El portafolio spot presentó diversificación moderada entre activos, mientras que el de CFDs evidenció concentración marcada en activos de alta volatilidad como DOGE (Zhang et al., 2023). En términos de retorno esperado y riesgo, ambos portafolios superaron el benchmark pasivo, aunque el CFD mostró una varianza esperada sustancialmente mayor, implicando mayor riesgo.
+A continuación, en la figura \ref{fig:peso} se muestra la asignación de pesos para el portafolio spot y CFD. El portafolio CFD mostró una mayor diversificación, mientras que el portafolio spot mostró una concentración en LEO, TRX y XRP.
 
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.7\textwidth]{imagenes/10-pesos.pdf}
+    \caption{\textit{Elaboración Propia}. Pesos de activos de distintos portafolios.}
+    \label{fig:peso}
+\end{figure}
 
+También se muestra la comparación de una unidad invertida a lo largo de 3 años, figura \ref{fig:12}. El portafolio CFD mostró una caida casi total y un repunte que llega a 6 unidades, mostrando los peligros, y a su vez la oportunidad presente de los CFDs con apalancamiento. El portafolio spot mostró un crecimiento más estable, alcanzando 3 unidades en el mismo periodo. Dado que no hay un índice de referencia para criptomonedas, se comparó con un portafolio ponderado por capitalización de mercado con las criptomonedas utilizadas para este estudio. Ambos portafolios mostraron una clara superioridad sobre el portafolio de capitalización de mercado, alcanzó 1.5 unidades a lo largo del tiempo.
 
-\newpage
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.7\textwidth]{imagenes/12.pdf}
+    \caption{\textit{Elaboración Propia}. Comparación de una unidad invertida a lo largo de 3 años.}
+    \label{fig:12}
+\end{figure}
+
 
 
 \subsubsection{Simulaciones de Monte Carlo con Movimiento Browniano Geométrico}
 
-Las simulaciones GBM a 30 días mostraron trayectorias divergentes. El portafolio CFD evidenció colas pesadas y escenarios extremos de ganancia o pérdida total. El portafolio spot mostró un comportamiento más simétrico, con mayor estabilidad y menor dispersión, aunque ambos presentaron rendimientos esperados positivos (Hull, 2015).
+Con las simulaciones obnetidas a partir del Movimiento Browniano Geométrico a 30 días, se generaron trayectorias de precios para los portafolios spot y CFD, se muestra en la figura \ref{fig:gbm}. el portafolio CFD mostró escenarios extremos de ganancia de más del doble o pérdida total, mientras el portafolio spot mostró un comportamiento con menor dispersión, llegando a aumentar el valor del portafolio por 50\% en el mejor escenario, y reducirlo un 50\% en el peor.
 
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=1\textwidth]{imagenes/10-Simulacion-GBM-h.pdf}
-    \caption{\textit{Elaboración Propia}. Descripción de la imagen.}
-    \label{fig:mi_imagen}
+    \includegraphics[width=1\textwidth]{imagenes/11-gbm-h.pdf}
+    \caption{\textit{Elaboración propia}. Simulaciones de Monte Carlo con Movimiento Browniano Geométrico.}
+    \label{fig:gbm}
 \end{figure}
 
 
 
 
 \subsection{Visualización de hallazgos mediante paneles gráficos}
-Se implementaron dashboards visuales que incluyen asignación de pesos, trayectorias GBM, scatterplots riesgo-retorno, clustermaps de correlaciones, grafos de similitud estructural y análisis multievento.
-\begin{figure}[h!]
-    \centering
-    \includegraphics[width=0.8\textwidth]{imagenes/10-pesos.pdf}
-    \caption{\textit{Elaboración Propia}. Descripción de la imagen.}
-    \label{fig:peso}
-\end{figure}
+Se implementaron dashboards que incluyen el análisis de retornos diarios, análisis de eventos, análisis de correlaciones, optimización de portafolios, asignación de pesos, comparación histórica y posibles trayectorias futuras con GBM.
+
 
 \section{Conclusiones y recomendaciones}
 
-Los contratos por diferencia (CFDs) muestran retornos potenciales elevados, llegando a superar más del doble del margen, aunque acompañados de riesgos extremos, incluyendo escenarios de pérdida total del capital invertido.
-El portafolio spot ofrece mayor estabilidad, siendo más adecuado para perfiles de inversión conservadores, llegando a 
+Los CFDs muestran retornos potenciales elevados, llegando a superar más de seis veces el margen, aunque acompañados de riesgos extremos, incluyendo escenarios de pérdida total del capital invertido. En contraste, el portafolio spot ofrece mayor estabilidad, siendo más adecuado para perfiles de inversión conservadores. La optimización de portafolios revela que la diversificación es clave para mitigar riesgos, mientras se maximizan los retornos, que es claro al compararlo con un portafolio pondorado por capitalización de mercado. 
 
 \subsection{Recomendaciones estratégicas}
 \begin{itemize}
-\item Priorizar portafolios spot diversificados para horizontes temporales superiores a seis meses.
-\item Implementar mecanismos de monitoreo dinámico de correlaciones y eventos relevantes con actualización periódica.
+\item Implementar mecanismos de monitoreo sobre eventos relevantes con actualización periódica.
 \item Reservar exposición a CFDs para perfiles con alta tolerancia al riesgo y experiencia en gestión activa de derivados.
 \end{itemize}
 
@@ -299,7 +324,7 @@ El portafolio spot ofrece mayor estabilidad, siendo más adecuado para perfiles 
 El modelo GBM asume normalidad y volatilidad constante, limitando su validez en contextos de alta heterocedasticidad o shocks extremos. Se proponen futuras investigaciones que:
 \begin{itemize}
 \item Incorporen modelos con saltos o volatilidad estocástica.
-\item Amplíen el universo de activos incluyendo tokens DeFi, NFT, stablecoins algorítmicas y productos estructurados.
+\item Amplíen el universo de activos incluyendo criptoactivos emergentes y tokens no fungibles (NFTs).
 \item Integren modelos ARIMA-GARCH para captura de dependencias temporales y heterocedasticidad condicional.
 \end{itemize}
 
@@ -307,81 +332,63 @@ El modelo GBM asume normalidad y volatilidad constante, limitando su validez en 
 
 
 
+% Markowitz, H. (1952). Portfolio Selection. The Journal of Finance, 7(1), 77–91. https://doi.org/10.2307/2975974
+
+
+% https://www.imf.org/es/Blogs/Articles/2021/10/01/blog-gfsr-ch2-crypto-boom-poses-new-challenges-to-financial-stability
+
+
+% https://www.binance.com/en/square/post/15713585293665
+
+
+% https://finance.yahoo.com/markets/crypto/all/?start=25&count=25 
+
+% https://www.infobae.com/america/mundo/2024/11/12/cual-es-la-nueva-criptomoneda-favorita-de-elon-musk-y-como-funciona/
+
+% https://es.finance.yahoo.com/noticias/impulsado-precio-ripple-24hs-104000691.html?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAALLJI03dMOiLelwi8FQx3zPEtcRuaekbHpZkFAOxy46S0R3YTZQj4Q7z_b8Cji3hs604RJM-5k-HFV6lnELnnWA8f4lsznFWWnw460w9AQOliRhr2usQ5jxROCsGCfEm7IZsP4ouj6Jbb9OnJZUzfJBH-aNEth6ivDnw9HRMhv4K
+
+
+% https://www.coingecko.com/es/highlights/high-volume
+
+
+% https://www.sciencedirect.com/science/article/abs/pii/0020019089901026
 
 
 
 
+
+
+\newpage
 \section{Referencias}
 
 \begin{thebibliography}{99}
-    \bibitem{bitgo2025wrapped}
-    BitGo. (2025). \textit{Wrapped Bitcoin Documentation}. \url{https://www.bitgo.com}
 
-    \bibitem{chainalysis2024crime}
-    Chainalysis. (2024). \textit{Crypto Crime Report}. \url{https://www.chainalysis.com/reports/2024-crypto-crime-report/}
+    
+    \bibitem{binance2024timeframe}
+Binance. (2024). \textit{Choosing the right time frame}. Binance. \url{https://www.binance.com/en/square/post/15713585293665}
 
-    \bibitem{coindesk2025xrp}
-    CoinDesk. (2025). \textit{XRP Price Volatility Amid SEC Lawsuit Developments}. \url{https://www.coindesk.com/markets/2025/04/10/xrp-price-volatility-amid-sec-lawsuit/}
+\bibitem{coingecko2025volume}
+CoinGecko. (2025). \textit{Cryptocurrencies ranked by highest trading volume}. CoinGecko. \url{https://www.coingecko.com/en/highlights/high-volume}
 
-    \bibitem{coingecko2025marketcap}
-    CoinGecko. (2025). \textit{Cryptocurrency Market Capitalizations}. \url{https://www.coingecko.com}
+\bibitem{imf2021crypto}
+IMF. (2021). \textit{Crypto boom poses new challenges to financial stability}. International Monetary Fund. \url{https://www.imf.org/en/Blogs/Articles/2021/10/01/blog-gfsr-ch2-crypto-boom-poses-new-challenges-to-financial-stability}
 
-    \bibitem{coinmarketcap2025global}
-    CoinMarketCap. (2025). \textit{Global Crypto Market Cap}. \url{https://www.coinmarketcap.com}
+\bibitem{infobae2024musk}
+Infobae. (2024). \textit{Cuál es la nueva criptomoneda favorita de Elon Musk y cómo funciona}. Infobae. \url{https://www.infobae.com/america/mundo/2024/11/12/cual-es-la-nueva-criptomoneda-favorita-de-elon-musk-y-como-funciona/}
 
-    \bibitem{cont2001empirical}
-    Cont, R. (2001). Empirical properties of asset returns: stylized facts and statistical issues. \textit{Quantitative Finance, 1}(2), 223–236. \url{https://doi.org/10.1080/713665670}
+\bibitem{kamada1989}
+Kamada, T., \& Kaway, S. (1989). An algorithm for drawing general undirected graphs. \textit{Information Processing Letters}, 31(1), 7-15. \url{https://doi.org/10.1016/0020-0190(89)90102-6}
 
-    \bibitem{defillama2025tvl}
-    DeFiLlama. (2025). \textit{DeFi Protocol Rankings by TVL}. \url{https://defillama.com}
+\bibitem{markowitz1952}
+Markowitz, H. (1952). Portfolio selection. \textit{The Journal of Finance}, 7(1), 77–91. \url{https://doi.org/10.2307/2975974}
 
-    \bibitem{electriccapital2025developer}
-    Electric Capital. (2025). \textit{Developer Report}. \url{https://www.electriccapital.com/developer-report}
+\bibitem{yahoo2025crypto}
+Yahoo Finance. (2025). \textit{Crypto markets overview}. Yahoo Finance. \url{https://finance.yahoo.com/markets/crypto/all/?start=25&count=25}
 
-    \bibitem{ethereumfoundation2024roadmap}
-    Ethereum Foundation. (2024). \textit{Ethereum 2.0 Roadmap}. \url{https://ethereum.org/en/upgrades/}
+\bibitem{yahoo2025ripple}
+Yahoo Finance. (2025). \textit{¿Qué ha impulsado el precio de Ripple en las últimas 24hs?}. Yahoo Finance. \url{https://es.finance.yahoo.com/noticias/impulsado-precio-ripple-24hs-104000691.html}
 
-    \bibitem{fidelity2025adoption}
-    Fidelity Digital Assets. (2025). \textit{Institutional Crypto Adoption}. \url{https://www.fidelitydigitalassets.com/research}
 
-    \bibitem{fisch2019disruptive}
-    Fisch, C., Sandner, P., \& Schulte, P. (2019). Disruptive technology in the financial services industry: The case of blockchain-based ICOs. \textit{Technological Forecasting and Social Change, 136}, 118–130. \url{https://doi.org/10.1016/j.techfore.2018.09.020}
-
-    \bibitem{hull2015options}
-    Hull, J. C. (2015). \textit{Options, Futures, and Other Derivatives} (9th ed.). Pearson.
-
-    \bibitem{kenett2010dominating}
-    Kenett, D. Y., Tumminello, M., Madi, A., Gur-Gershgoren, G., Mantegna, R. N., \& Ben-Jacob, E. (2010). Dominating clasp of the financial sector revealed by partial correlation analysis of the stock market. \textit{PLoS ONE, 5}(12), e15032. \url{https://doi.org/10.1371/journal.pone.0015032}
-
-    \bibitem{liu2022common}
-    Liu, Y., Tsyvinski, A., \& Wu, X. (2022). Common risk factors in cryptocurrency. \textit{Journal of Finance, 77}(2), 1133–1177. \url{https://doi.org/10.1111/jofi.13039}
-
-    \bibitem{makerdao2024dai}
-    MakerDAO. (2024). \textit{DAI Stablecoin System Overview}. \url{https://makerdao.com/en/whitepaper/}
-
-    \bibitem{mantegna1999hierarchical}
-    Mantegna, R. N. (1999). Hierarchical structure in financial markets. \textit{European Physical Journal B, 11}, 193–197. \url{https://doi.org/10.1007/s100510050929}
-
-    \bibitem{markowitz1952portfolio}
-    Markowitz, H. (1952). Portfolio selection. \textit{Journal of Finance, 7}(1), 77–91. \url{https://doi.org/10.2307/2975974}
-
-    \bibitem{messari2025thesis}
-    Messari. (2025). \textit{Annual Crypto Thesis Report}. \url{https://messari.io/report/crypto-theses-2025}
-
-    \bibitem{reuters2025elon}
-    Reuters. (2025). \textit{Elon Musk Tweets Drive DOGE Surge}. \url{https://www.reuters.com/technology/elon-musks-tweets-drive-dogecoin-price-surge-2025-03-17/}
-
-    \bibitem{santiment2024social}
-    Santiment. (2024). \textit{Social Trends in Crypto}. \url{https://app.santiment.net}
-
-    \bibitem{tumminello2005tool}
-    Tumminello, M., Aste, T., Di Matteo, T., \& Mantegna, R. N. (2005). A tool for filtering information in complex systems. \textit{Proceedings of the National Academy of Sciences, 102}(30), 10421–10426. \url{https://doi.org/10.1073/pnas.0500298102}
-
-    \bibitem{yahoofinance2025historical}
-    Yahoo Finance. (2025). \textit{Cryptocurrency Historical Data}. \url{https://finance.yahoo.com}
-
-    \bibitem{zhang2023cryptocurrency}
-    Zhang, L., Zhang, X., \& Li, Y. (2023). Cryptocurrency Portfolio Construction: A Risk-Based Approach. \textit{Financial Innovation, 9}, 51. \url{https://doi.org/10.1186/s40854-023-00479-2}
 \end{thebibliography}
 
 \end{document}
